@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="header_div" class="footer">
+      Post Menu
+    </div>
+    <%= yield %>
+
+    <div id="footer" class="footer">
+      Post Footer
+    </div>
+  </body>
+</html>
