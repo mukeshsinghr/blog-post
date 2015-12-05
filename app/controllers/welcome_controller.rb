@@ -1,3 +1,4 @@
+#This is controller to handle home pages
 class WelcomeController < ApplicationController
   skip_before_filter :authenticate
   def welcome
